@@ -14,7 +14,7 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=${POSTGRES_DB}
     volumes:
-      - ./application:/app
+      - ./backend:/app
   db:
     container_name: dndnearby-db
     image: postgres
@@ -40,7 +40,7 @@ services:
       - backend
     volumes:
       - /app/node_modules
-      - ./application:/app
+      - ./frontend:/app
 volumes:
   postgres-data: {}
 
