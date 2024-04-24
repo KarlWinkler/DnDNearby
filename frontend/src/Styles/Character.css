@@ -1,0 +1,211 @@
+.character-grid {
+  display: grid;
+  grid-template-areas:
+    "image  image  name          features      features       features    features    features"
+    "image  image  ability-score ability-score ability-score  stats       stats       saves"
+    "skills skills information   information   information    information information information"
+    "skills skills information   information   information    information information information"
+    "skills skills information   information   information    information information information"
+    "skills skills information   information   information    information information information"
+    "skills skills information   information   information    information information information";
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.grid-item {
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+
+  border-radius: var(--spacing-1);
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.priority {
+  border: none;
+  background-color: var(--blue-20);
+}
+
+.stat {
+  border: none;
+  background-color: var(--red-20);
+}
+
+.character-image {
+  position: relative;
+  grid-area: image;
+}
+
+.character-image img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: var(--spacing-1);
+
+  object-fit: cover;
+}
+
+a.remove-image-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  padding: 4px 12px;
+  color: var(--primary-color);
+}
+
+a.remove-image-button:hover {
+  background-color: var(--red-100);
+  text-decoration: underline;
+}
+
+.character-name {
+  grid-area: name;
+
+  padding: var(--spacing-1);
+}
+
+.character-features {
+  grid-area: features;
+
+  display: flex;
+
+  gap: var(--spacing-2);
+
+  padding: 0 var(--spacing-2);
+}
+
+.character-ability-scores {
+  grid-area: ability-score;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: var(--spacing-1);
+}
+
+.ability-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-1);
+}
+
+.score {
+  padding: var(--spacing-1);
+  background-color: var(--base-color-25);
+  border-radius: var(--spacing-2);
+  border: 1px solid var(--text-color);
+}
+
+.modifier {
+  padding: var(--spacing-1);
+  width: fit-content;
+  background-color: var(--base-color-25);
+  border-radius: var(--spacing-4);
+  border: 1px solid var(--text-color);
+}
+
+
+.character-stats {
+  grid-area: stats;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: var(--spacing-1);
+}
+
+.character-death-saves {
+  grid-column: 1/3;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+}
+
+.character-death-saves .success {
+  justify-self: end;
+
+  border-right: 1px solid var(--text-color);
+  padding-right: var(--spacing-1);
+
+}
+
+.character-death-saves p{
+  margin: 0;
+  padding: var(--spacing-1)
+}
+
+.character-death-saves .failure {
+  justify-self: start;
+
+  padding-left: var(--spacing-1);
+}
+
+.character-skills {
+  grid-area: skills;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.character-skills .select {
+  width: 100%;
+}
+
+.character-saves {
+  grid-area: saves;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: var(--spacing-1);
+}
+
+.character-information {
+  grid-area: information;
+}
+
+.select {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.select .value {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.character-skills .select .value {
+  margin: 14px auto;
+  text-align: center;
+  width: 60%;
+}
+
+.number-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  justify-items: center;
+  align-items: center;
+
+  gap: var(--spacing-1);
+}
+
+.text-item {
+  display: flex;
+
+  justify-items: space-around;
+  align-items: center;
+
+  gap: var(--spacing-1);
+}

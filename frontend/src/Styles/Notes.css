@@ -1,0 +1,66 @@
+.note {
+  padding: var(--spacing-2);
+}
+
+.note-main {
+  background-color: var(--base-color-25);
+  border-radius: var(--spacing-1);
+
+  margin-bottom: var(--spacing-6);
+}
+
+.parent-note {
+  margin-bottom: var(--spacing-4);
+}
+
+.note-edit {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+
+  gap: var(--spacing-2);
+}
+
+.child-note {
+  padding: var(--spacing-1);
+  background-color: var(--base-color-25);
+  border-radius: var(--spacing-1);
+}
+
+.note-children {
+  border: 4px solid var(--primary-color);
+  border-radius: var(--spacing-1);
+
+  padding: var(--spacing-2);
+}
+
+.children {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  padding: 0;
+  padding-top: var(--spacing-3);
+  list-style: none;
+
+  gap: 10px;
+}
+
+.tab-children {
+  flex-direction: column;
+}
+
+.recent {
+  margin-bottom: var(--spacing-2);
+}
+
+.recent-cards {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  border: 4px solid var(--primary-color);
+  border-radius: var(--spacing-1);
+
+  padding: var(--spacing-2);
+}

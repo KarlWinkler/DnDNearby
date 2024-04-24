@@ -1,0 +1,31 @@
+{
+  "characters": [
+    {
+      "id": "2",
+      "name": "Devin",
+      "class": "Warrior",
+      "level": 5,
+      "race": "Human",
+      "background": "Noble",
+      "image": "https://micahblackburn.files.wordpress.com/2012/06/valeros.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Taylor of Death",
+      "class": "Rogue",
+      "race": "Elf",
+      "level": 3,
+      "background": "Criminal",
+      "image": "https://external-preview.redd.it/k-tus6iWYzNQCt3IdFuyFpv4DyIh0-Bkb4pJ9mTLKwo.jpg?width=640&crop=smart&auto=webp&s=8288615157d2d088a5ffb14b7ee5c9ed31c0665f"
+    },
+    {
+      "id": "4",
+      "name": "Geronimo",
+      "class": "Wizard",
+      "race": "Dwarf",
+      "level": 2,
+      "background": "Sage",
+      "image": "https://i.redd.it/gj13b8frlnqb1.jpg"
+    }
+  ]
+}

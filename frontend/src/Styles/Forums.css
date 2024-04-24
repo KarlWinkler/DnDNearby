@@ -1,0 +1,79 @@
+.forums {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.forums h2 {
+  margin-bottom: 0;
+}
+
+.post {
+  transition: 0.1s;
+}
+
+.post:hover {
+  background-color: var(--blue-20);
+  scale: 1.02;
+}
+
+.community {
+  display: flex;
+
+  flex-direction: column;
+  gap: var(--spacing-1);
+  color: var(--text-color);
+  padding: 20px;
+  
+  padding: var(--spacing-1) var(--spacing-2);
+  border-radius: var(--spacing-1);
+  background-color: var(--base-color);
+  transition: 0.1s;
+}
+
+.community:hover {
+  background-color: var(--blue-20);
+  scale: 1.02;
+}
+
+.communities-container {
+  padding: var(--spacing-1);
+}
+
+.communities {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--spacing-1);
+}
+
+.communities .topics-searchBar {
+  width: 100%;
+}
+
+.forums .topics-searchBar {
+  grid-column: 1 / 3;
+}
+
+.forums .title {
+  grid-column: 1 / 3;
+}
+
+.image-board {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-content img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.view-post-image {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}

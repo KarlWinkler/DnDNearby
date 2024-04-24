@@ -1,0 +1,26 @@
+{
+  "recent": [
+    {
+      "type": "note",
+      "id": "1",
+      "title": "Session 3",
+      "content": "This is the first note"
+    },
+    {
+      "type": "character",
+      "id": "2",
+      "name": "Geronimo",
+      "class": "Warrior",
+      "level": 5,
+      "race": "Human",
+      "background": "Noble",
+      "image": "https://i.redd.it/gj13b8frlnqb1.jpg"
+    },
+    {
+      "type": "note",
+      "id": "3",
+      "title": "Session 2",
+      "content": "This is the third note"
+    }
+  ]
+}

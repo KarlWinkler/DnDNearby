@@ -1,0 +1,7 @@
+.hint {
+  color: var(--text-color-dark);
+}
+
+.hint-column {
+  margin-bottom: var(--spacing-2);
+}

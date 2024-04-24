@@ -1,0 +1,223 @@
+body {
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  color: var(--text-color);
+  background-color: var(--base-color);
+}
+
+.app-wrapper {
+  background-color: var(--colour-background);
+  color: white;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin: var(--spacing-2) 0px;
+
+  padding-right: var(--spacing-4);
+
+  gap: var(--spacing-3);
+}
+
+.child-content {
+  color: var(--text-color-dark);
+}
+
+.child-content span {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  box-sizing: border-box;
+  height: 100;
+}
+
+.links {
+  display: flex;
+  gap: var(--spacing-3);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: var(--spacing-1);
+
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding: 1px;
+}
+
+.icon-large {
+  width: 30px;
+  height: 30px;
+
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.button {
+  padding: var(--spacing-1) var(--spacing-2);
+  border: none;
+  border-radius: var(--spacing-2);
+  background-color: var(--red-100);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--red-20);
+}
+
+.button-save {
+  background-color: var(--blue-100);
+  color: var(--text-color-contrast);
+}
+
+.button-filter {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--blue-100);
+  color: var(--text-color-contrast);
+}
+
+.button-save:hover, .button-filter:hover {
+  background-color: var(--blue-20);
+}
+
+.button-join {
+  display: block;
+  width: 100%;
+  background-color: var(--green-50);
+
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.button-disabled {
+  display: block;
+  width: 100%;
+  background-color: var(--base-color);
+
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.stop-being-long {
+  width: fit-content;
+}
+
+.button-disabled:hover {
+  background-color: var(--base-color);
+  cursor: not-allowed;
+}
+
+.button-join:hover {
+  background-color: var(--blue-20);
+}
+
+.button-pending  {
+  background-color: var(--yellow-100);
+  color: var(--base-color);
+}
+
+.button-pending:hover {
+  background-color: var(--yellow-100);
+  cursor: default;
+}
+
+.button-large {
+  background-color: var(--colour-background);
+
+  border: 2px solid var(--text-color);
+
+  padding: var(--spacing-3) var(--spacing-4);
+  border-radius: var(--spacing-4);
+}
+
+.button-add {
+  background-color: var(--green-50);
+}
+
+.add-container {
+  margin-left: auto;
+}
+
+.button-disabled {
+  background-color: var(--base-color);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button-disabled:hover {
+  background-color: var(--base-color);
+}
+
+.flex {
+  display: flex;
+  gap: var(--spacing-3);
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  padding: var(--spacing-2);
+  margin: var(--spacing-2);
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(19, 227, 19, 0.527);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 75px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add p {
+  padding-bottom: 12px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin: var(--spacing-1);
+
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.helper-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-3);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.error-message {
+  color: var(--red-100);
+  margin: var(--spacing-2);
+}

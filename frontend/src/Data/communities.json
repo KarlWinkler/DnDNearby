@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Dungeons & Dragons",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 2,
+    "name": "Dungeon Masters",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 3,
+    "name": "Players",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 4,
+    "name": "Wizards",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 5,
+    "name": "Rangers",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 6,
+    "name": "Clerics",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 7,
+    "name": "Fighters",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 8,
+    "name": "Thieves",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 9,
+    "name": "Barbarians",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 10,
+    "name": "Bards",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 11,
+    "name": "Monks",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 12,
+    "name": "Sorcerers",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 13,
+    "name": "Warlocks",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 14,
+    "name": "Paladins",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 15,
+    "name": "Druids",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "id": 16,
+    "name": "Rogues"
+  }
+]

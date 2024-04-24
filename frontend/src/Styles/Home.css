@@ -1,0 +1,161 @@
+.searchBar {
+    display: flex;
+    padding: 20px;
+}
+
+.searchBar-content {
+  display: flex;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.searchBar-content input {
+  flex-grow: 1;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 20px;
+    border: 1px solid var(--text-color);
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--text-color);
+}
+
+.search-input:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.feed {
+    display: block;
+}
+
+.feed .card {
+    background-color: var(--primary-color); /* Card background */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: top;
+    overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+  max-height: 200px; /* Set this to your initial max height */
+}
+
+.feed .card-content{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.feed .card-content h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+  
+.feed .card-content p {
+    font-size: 0.9rem;
+
+
+}
+  
+.feed .card-info {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.like {
+    margin-left: auto;
+}
+
+.boards{
+    display: flex;
+}
+
+.board-info{
+    margin: 10px;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    
+    text-align: center; /* Center text */
+}
+
+.form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px; /* Adjust this to fit your design */
+  }
+
+  .input-field {
+    width: 100%; /* Full width of the form */
+    margin-bottom: 16px; /* Space between fields */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    text-align: start;
+  }
+
+label input {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.button {
+    padding: 16px 32px; /* Increase padding for a larger button */
+    width: auto; /* Adjust the width as needed, auto will make it content-sized */
+    font-size: 18px; /* Larger font size for the button */
+    border-radius: 8px; /* Optional: more pronounced rounded corners */
+    cursor: pointer;
+}
+
+
+.image-board{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.heart-button{
+    cursor: pointer;
+}
+
+.card.expanded{
+    max-height: 500px;
+}
+
+
+  
+
+  

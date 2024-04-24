@@ -1,0 +1,4 @@
+.joinableHeader {
+    justify-content: start !important; /* Aligns the header content to the left */
+    padding-left: 30px !important; /* Adds space to the left of the header content */
+  }

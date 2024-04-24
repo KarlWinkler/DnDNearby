@@ -1,0 +1,35 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  top: 112px;
+  position: sticky;
+  align-self: start;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+  padding: 10px 0px;
+  margin: 10px;
+  margin-left: 0px;
+
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 10px 0px 10px 20px;
+  transition: 0.5s;
+}
+
+.sidebar-link:hover {
+  background-color: var(--base-color-25);
+}
+
+.sidebar-link.active {
+  background-color: var(--base-color);
+}

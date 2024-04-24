@@ -3,7 +3,7 @@ services:
   backend:
     container_name: dndnearby-backend
     build:
-      context: ./application
+      context: ./backend
       dockerfile: dockerfile-backend
     ports:
       - 8000:8000
@@ -29,6 +29,18 @@ services:
     image: redis
     ports:
       - 6379:6379
+  frontend:
+    container_name: dndnearby-frontend
+    build:
+      context: ./frontend
+      dockerfile: dockerfile-frontend
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+    volumes:
+      - /app/node_modules
+      - ./application:/app
 volumes:
   postgres-data: {}
 
