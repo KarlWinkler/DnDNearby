@@ -1,12 +1,14 @@
 # DnD Nearby
 
-Backend built for DnD Nearby using Django.
+Open Source DnD community management tool.
+Frontend built with React.
+Backend built with Django.
 
 ## Getting started
 
 #### Downloading the repository
-1. Clone the repository `git clone git@github.com:KarlWinkler/DnDNearby-Backend.git`
-2. cd into the repository `cd DnDNearby-Backend`
+1. Clone the repository `git clone git@github.com:KarlWinkler/DnDNearby.git`
+2. cd into the repository `cd DnDNearby`
 
 #### Starting the app
 3. run the following commands to start the app:
@@ -20,7 +22,7 @@ Backend built for DnD Nearby using Django.
 6. run `make createsuperuser` to create a superuser and then log in to the admin interface to add edit data.
 
 #### Viewing the app
-7. Open your browser and navigate to http://localhost:8000/swagger to take a look at the api documentation.
+7. Open your browser and navigate to http://localhost:3000.
 
 ## Deveopment Process
 ### Git
