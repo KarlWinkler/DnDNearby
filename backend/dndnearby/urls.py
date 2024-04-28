@@ -41,6 +41,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/group/', include('group.urls')),
     path('api/forum/', include('forum.urls')),
+    path('api/learn/', include('learn.urls')),
+    path('api/organize/', include('organize.urls')),
     path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),

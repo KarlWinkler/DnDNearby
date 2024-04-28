@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from rest_framework.fields import SerializerMethodField
 from .models import (
   Character,
   CharacterClass,
@@ -91,8 +92,7 @@ class NoteSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def get_child_notes(self, obj):
-        children = ChildNote.objects.filter(parent=obj).values_list('child', flat=True)
-        return ChildNoteSerializer(ChildNote.objects.filter(child__in=children), many=True).data
+        return ChildNoteSerializer(obj.children, many=True).data
 
     def get_parent_notes(self, obj):
         parent = ChildNote.objects.filter(child=obj).values_list('parent', flat=True)
